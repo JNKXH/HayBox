@@ -30,7 +30,7 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
 
     // L3 & R3
     outputs.leftStickClick = inputs.l || inputs.c_left; 
-    outputs.rightStickClick = inputs.a;                       
+    outputs.rightStickClick = inputs.down;                       
 
     // Menu keys
     outputs.start = inputs.start;
